@@ -1,112 +1,133 @@
 <!DOCTYPE html>
-<div class="p-3 mb-2 bg-success text-white"><div class="bg-success"></div>
-<html lang="en">
- 
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<div class="p-3 mb-2 bg-success text-white">
+    <div class="bg-success"></div>
+    <html lang="en">
 
-    <meta charset="UTF=8">
-    <meta name="Jesrael Basilio" content="Nombre del autor del sitio web" />
-    <meta name="description" content="Este es un sitio de Cursos de tecnologia para niños" />
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <meta name="viewport" content="width-device-width, initial=scale=1,0">
-    <title> Formulario Usiario </title>
-</head>
+        <meta charset="UTF=8">
+        <meta name="Jesrael Basilio" content="Nombre del autor del sitio web" />
+        <meta name="description" content="Este es un sitio de Cursos de tecnologia para niños" />
 
-<body>
-    <div class="fixed-top">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-1">
-            
-            <span class="text-muted">Curso de tecnologia.</span>
-          </div>
+        <meta name="viewport" content="width-device-width, initial=scale=1,0">
+        <title> Formulario Usiario </title>
+    </head>
+
+    <body>
+        <div class="fixed-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-1">
+
+                    <span class="text-muted">Curso de tecnologia.</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
         </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-      </div>
-      <p>Sample text here...</p>
-<p>Curso de Tecnologia </p>
-    <div class="container">
-        <form>
-            <div class="form-group">
-       <h1 class="text center"> Ingresa Tus Datos Personales </h1>
-        <div class="row">
-          <div class="col-md-3 col-lg-3">
-    <p>
-        nombre:
-        <input type="text" class="form-control"  name="nombre" size="40">
-</div>
-    </p>
-    <div class="col-md-3 col-lg-3">
-    <p>
-        apellido:
-        <input type="text" class="form-control" name="apellido" size="40">
-    </p>
-</div>
-<div class="col-md-3 col-lg-3">
-    <p>
-        edad:
-        <input type="number"  name="edad" min="nueve">
-    </p>
-</div>
-</div>
-</div>
-<div class="container"> 
-    <div class="form-group">
-<div class="row">
+        <p>Sample text here...</p>
+        <p>Curso de Tecnologia </p>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <h1 class="text center"> Ingresa Tus Datos Personales </h1>
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3">
+                            <p>
+                                Nombre:
+                                <input type="text" class="form-control" name="nombre" size="40">
+                        </div>
+                        </p>
+                        <div class="col-md-3 col-lg-3">
+                            <p>
+                                Apellido:
+                                <input type="text" class="form-control" name="apellido" size="40">
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <p>
 
-    <p>
-        grado:
-        <input type="radio" name="grado"> Primero 
-        <input type="radio" name="grado"> Segundo 
-        <input type="radio" name="grado"> Tercero
-    </p>
-   
-    <div class="col-md-3 col-lg-3">
-    <p>Sexo:
-        <input type="radio" name="hm" value="h"> Hombre
-        <input type="radio" name="hm" value="m"> Mujer
-    </p>
-</div>
-<div class="col-md-3 col-lg-3">
-    <p>
-        Correo:
-        <input type="email" class="form-control" name="correo" size="40">
-    </p>
-</div>
-</div>
-</div>
-</div>
-<div class="container"> 
-    <div class="form-group">
-<div class="row">
-    <div class="col-md-3 col-lg-3">
-    <p>
-        Clave:
-        <input type="password" class="form-control" name="clave">
-    </p>
-</div>
-    <p>
-        rol:
-        <input type="radio" name="rol"> alumno <br>
-        <input type="radio" name="rol"> colaboradores
-    </p>
-    </div>
-</div>
-    <p>
-        <input type="submit" class="btn btn-primary" value="Enviar">
-        <input type="reset" class="btn btn-danger" value="Borrar">
-    </p>
-</form>
+                                Edad: <input type="number" class="form-control" name="numero" min="9" max="54"
+                                    name="edad">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Correo:
+                            <input type="email" class="form-control" name="correo" size="40">
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Clave:
+                            <input type="password" class="form-control" name="clave">
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Sexo:
+                            <select name="Sexo" class="form-control">
+                                <option value="0">...</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Rol:
+                            <select name="Rol" class="form-control">
+                                <option value="0">...</option>
+                                <option value="1">Alumno</option>
+                                <option value="2">Colaborador</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                    <p>
+                        Grado:
+                        <select name="Grado" class="form-control">
+                            <option value="0">...</option>
+                            <option value="1">Tercero</option>
+                            <option value="2">Cuarto</option>
+                            <option value="3">Quinto</option>
+                            <option value="4">Sexto</option>
+                            <option value="5">1°ero Secundaria</option>
+                            <option value="6">2°ndo Secundaria</option>
+                            <option value="7">3°ero Secundaria</option>
+                            <option value="8">1°ero Preparatoria</option>
+                            <option value="9">2°ndo Preparatoria</option>
+                            <option value="10">3°ero Preparatoria</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+                <p>
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="reset" class="btn btn-danger" value="Borrar">
+                </p>
+            </form>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-</html>
-</div>
-</div>
+    </html>
