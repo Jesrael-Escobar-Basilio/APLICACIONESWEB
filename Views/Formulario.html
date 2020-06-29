@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<div class="p-3 mb-2 bg-success text-white">
+    <div class="bg-success"></div>
+    <html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <meta charset="UTF=8">
+        <meta name="Jesrael Basilio" content="Nombre del autor del sitio web" />
+        <meta name="description" content="Este es un sitio de Cursos de tecnologia para niños" />
+
+        <meta name="viewport" content="width-device-width, initial=scale=1,0">
+        <title> Formulario Usuario </title>
+    </head>
+
+    <body>
+        <table border ="1">
+            <tr>
+                <td>Nombre</td>
+                    <td>Apellido</td>
+                        <td>Telefono</td>
+                            <td>Direccion</td>
+                            </tr>  
+                            <tr>
+                                <td> Jesrel </td>
+                                <td> Basilio </td>
+                                <td> 7291057803 </td>
+                                <td> Cerrada del Norte #9 </td>
+                            </tr>   
+                </table>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Curso de Tecnologia</a>
+            <div class="collapse navbar-collapse" id="navbarTex">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="file:///C:\Users\Jess\APLICACIONESWEB\Views\Formulario.html">
+                            Usuario <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            <div class="collapse navbar-collapse" id="navbarTex">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="file:///C:\Users\Jess\APLICACIONESWEB\Views\Curso_Usuario.html">
+                            Curso Usuario <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="file:///C:\Users\Jess\APLICACIONESWEB\Views\Curso.html">
+                            Curso <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="file:///C:\Users\Jess\APLICACIONESWEB\Views\Contenido_Visual.html">
+                            Contenido Visual <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+    
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="file:///C:\Users\Jess\APLICACIONESWEB\Views\Contenido_Informatico.html">
+                        Contenido Informatico <span class="sr-only"></span></a>
+                </li>
+            </ul>
+        </ul>
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active">
+                <a class="nav-link" href="file:///C:\Users\Jess\APLICACIONESWEB\Views\Comentario.html">
+                    Comentarios <span class="sr-only"></span></a>
+            </li>
+        </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Escribe aqui" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <h1 class="text center"> Ingresa Tus Datos Personales </h1>
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3">
+                            <p>
+                                Nombre:
+                                <input type="text" class="form-control" name="nombre" size="40">
+                        </div>
+                        </p>
+                        <div class="col-md-3 col-lg-3">
+                            <p>
+                                Apellido:
+                                <input type="text" class="form-control" name="apellido" size="40">
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-3">
+                            <p>
+
+                                Edad: <input type="number" class="form-control" name="numero" min="9" max="54"
+                                    name="edad">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Correo:
+                            <input type="email" class="form-control" name="correo" size="40">
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Clave:
+                            <input type="password" class="form-control" name="clave">
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Sexo:
+                            <select name="Sexo" class="form-control">
+                                <option value="0">...</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Femenino</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Rol:
+                            <select name="Rol" class="form-control">
+                                <option value="0">...</option>
+                                <option value="1">Alumno</option>
+                                <option value="2">Colaborador</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <p>
+                            Grado:
+                            <select name="Grado" class="form-control">
+                                <option value="0">...</option>
+                                <option value="1">Tercero</option>
+                                <option value="2">Cuarto</option>
+                                <option value="3">Quinto</option>
+                                <option value="4">Sexto</option>
+                                <option value="5">1°ero Secundaria</option>
+                                <option value="6">2°ndo Secundaria</option>
+                                <option value="7">3°ero Secundaria</option>
+                                <option value="8">1°ero Preparatoria</option>
+                                <option value="9">2°ndo Preparatoria</option>
+                                <option value="10">3°ero Preparatoria</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+                <p class="text-center">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="reset" class="btn btn-danger" value="Borrar">
+                </p>
+            </form>
+        </div>
+      
+    </body>
+      <!-- Footer -->
+      <footer class="page-footer font-small pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3 btn-primary">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Informacion del Curso de Tecologias</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3 bg-secondary">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Acerca del Curso</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Opiniones </a>
+                        </li>
+                        <li>
+                            <a href="#!">Informacion de los Administradores </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3 bg-warning">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase" >Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-danger"> © 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+        
+    </html>
